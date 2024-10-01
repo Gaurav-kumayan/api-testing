@@ -1,0 +1,30 @@
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover; 
+    border-radius: 10px 10px 0 0; 
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 90%; 
+    }
+}
